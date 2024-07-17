@@ -32,6 +32,7 @@ header {
     border: 1px solid;
     padding: 5px;
     border-radius: 50px;
+    border: 2px solid red;
 }
 
 .navbar-button {
@@ -68,7 +69,7 @@ ul li {
 
 /* Banner section style */
 .banner {
-    /* border: 2px solid red; */
+    border: 2px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,11 +112,12 @@ ul li {
 }
 
 .banner-section-1 {
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 
 .banner-section-2 {
-    /* border: 2px solid red; */
+    border: 2px solid red;
+    position: relative;
 }
 
 .ring-button {
@@ -125,34 +127,88 @@ ul li {
     border: none;
 }
 
-.box-1 {
+/* .box-1{
+    position: absolute;
+    top: 10%;
+    margin-left: -50px;
+    color: white;
+} */
+.box-2 {
+    position: absolute;
+}
+
+.main-box {
+    border: 2px solid red;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    bottom: 15%;
+    margin-left: -25%;
+    padding: 15px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    border-radius: 8px;
+}
+
+.box-1-title{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.box-1-description{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.circle {
+    padding: 15px;
+    border-radius: 100px;
+    border: none;
+    background-color: rgb(230, 83, 60);
+}
+
+.box-2 {
+    color: white;
+    position: absolute;
+    bottom: 70%;
+    margin-left: 80%;
+    border: 2px solid red;
+    padding: 5%;
+}
+
+
+/* .box-1 {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     border-radius: 5px;
-    /* width: 40%; */
-    /* padding: 10px; */
+    width: 40%;
+    padding: 10px;
     position: absolute;
     width: 12.87rem;
     height: 6rem;
-    left: 1000px;
-    top: 550px;
+    left: 65.62rem;
+    top: 33.12rem;
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
-}
+    width: 10%;
+} */
 
-.tutorial {
+/* .tutorial {
     color: white;
-}
+} */
 
-.tutorial-video {
-    /* border: 2px solid red; */
+/* .tutorial-video {
+    border: 2px solid red;
     position: absolute;
+    margin: 0 auto;
     width: 193px;
     height: 98px;
-    left: 1250px;
+    left: 1380px;
     top: 260px;
     display: flex;
     flex-direction: column;
@@ -161,5 +217,9 @@ ul li {
     border-radius: 5px;
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
+    width: 10%;
 
-}
+} */
+
+/* Small device responsive */
+@media screen and (max-width 576) {}
