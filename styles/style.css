@@ -205,6 +205,32 @@ ul li a {
 .icon {
     display: none;
 }
+/* Change your habit style */
+.habit-section-1{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+.habit-section-2{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.habit-image{
+    border: 2px solid red;
+    border-radius: 100px;
+    width: 90%;
+}
+
+.habit-card{
+    text-align: center;
+}
 
 
 /* Small device responsive */
