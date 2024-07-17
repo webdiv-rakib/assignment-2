@@ -14,3 +14,47 @@ body {
 }
 
 /* Navbar section style */
+header{
+    background-color: aqua;
+    
+}
+.navbar-title{
+    color: rgb(230, 83, 60);
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.navbar-section-2{
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.navbar-button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    
+}
+
+.navbar-button:hover{
+    background-color: rgb(230, 83, 60);
+}
+
+.navbar{
+    margin-top: 50px;
+    /* margin-top: 3.5rem; */
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+}
+
+.navbar-option{
+    display: flex;
+    gap: 2.25rem;
+}
