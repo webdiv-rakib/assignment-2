@@ -65,3 +65,101 @@ ul li {
     gap: 2.25rem;
     width: 100%;
 }
+
+/* Banner section style */
+.banner {
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15.5rem;
+    margin-left: 11.87rem;
+    margin-right: 11.87rem;
+}
+
+.banner-title {
+    font-size: 4.8rem;
+    font-weight: 900;
+    color: white;
+}
+
+.shape {
+    font-family: "Great Vibes", cursive;
+    font-size: 4.8rem;
+    font-weight: 400;
+}
+
+.banner-description {
+    margin-top: 1.75rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.banner-button {
+    margin-top: 1.75rem;
+    padding: 16px 40px 16px 40px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: #0f0f0f;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.banner-button:hover {
+    background-color: rgb(230, 83, 60);
+    border: none;
+}
+
+.banner-section-1 {
+    /* border: 2px solid red; */
+}
+
+.banner-section-2 {
+    /* border: 2px solid red; */
+}
+
+.ring-button {
+    padding: 20px;
+    border-radius: 50px;
+    background-color: rgb(230, 83, 60);
+    border: none;
+}
+
+.box-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    /* width: 40%; */
+    /* padding: 10px; */
+    position: absolute;
+    width: 12.87rem;
+    height: 6rem;
+    left: 1000px;
+    top: 550px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+}
+
+.tutorial {
+    color: white;
+}
+
+.tutorial-video {
+    /* border: 2px solid red; */
+    position: absolute;
+    width: 193px;
+    height: 98px;
+    left: 1250px;
+    top: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+
+}
