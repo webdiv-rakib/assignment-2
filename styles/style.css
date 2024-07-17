@@ -205,31 +205,61 @@ ul li a {
 .icon {
     display: none;
 }
+
 /* Change your habit style */
-.habit-section-1{
+.habit-section-1 {
     margin-top: 100px;
     text-align: center;
     margin-bottom: 58px;
 }
 
-.habit-section-2{
-    border: 2px solid red;
+
+.habit-title {
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.habit-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.87rem;
+    font-weight: 400;
+    margin-top: 14px;
+}
+
+.habit-section-2 {
+    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
     margin-left: 150px;
     margin-right: 150px;
+    margin-bottom: 100px;
 }
 
-.habit-image{
-    border: 2px solid red;
+.habit-image {
+    /* border: 2px solid red; */
     border-radius: 100px;
     width: 90%;
 }
 
-.habit-card{
+.habit-card {
     text-align: center;
+}
+
+.card-title {
+    color: white;
+    font-size: 1.12rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.card-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.87rem;
+    font-weight: 400;
+    margin-top: 6px;
 }
 
 
@@ -290,5 +320,14 @@ ul li a {
     .box-2 {
         margin-left: 53%;
         margin-bottom: 20%;
+    }
+
+    /* Habit section responsive */
+    .habit-section-1{
+        text-align: center;
+    }
+    .habit-section-2{
+        flex-direction: column;
+        margin: 0 auto;
     }
 }
