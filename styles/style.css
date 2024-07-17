@@ -11,50 +11,57 @@
 
 body {
     font-family: "Inter", sans-serif;
+    background-color: #1a1a1a;
 }
 
 /* Navbar section style */
-header{
-    background-color: aqua;
-    
+header {
+    /* background-color: aqua; */
+
 }
-.navbar-title{
+
+.navbar-title {
+    margin-top: 3.6rem;
     color: rgb(230, 83, 60);
     font-size: 2.25rem;
     font-weight: 800;
 }
 
-.navbar-section-2{
+.navbar-section-2 {
+    margin-top: 3.6rem;
     border: 1px solid;
     padding: 5px;
     border-radius: 50px;
 }
 
-.navbar-button{
+.navbar-button {
     padding: 10px 20px;
     border-radius: 50px;
     border: none;
-    
+    color: white;
+    background-color: #1a1a1a;
+    font-size: 1.125rem;
+    font-weight: 600;
 }
 
-.navbar-button:hover{
+.navbar-button:hover {
     background-color: rgb(230, 83, 60);
 }
 
-.navbar{
-    margin-top: 50px;
-    /* margin-top: 3.5rem; */
+.navbar {
     display: flex;
     justify-content: space-between;
-    /* justify-content: center; */
     align-items: center;
+    margin-left: 11.87rem;
+    margin-right: 11.87rem;
 }
 
-ul li{
+ul li {
     list-style: none;
 }
 
-.navbar-option{
+.navbar-option {
     display: flex;
     gap: 2.25rem;
+    width: 100%;
 }
