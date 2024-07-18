@@ -288,6 +288,9 @@ ul li a {
     width: 100%;
 
 }
+.run-image-1{
+    display: none;
+}
 
 .run-title {
     color: white;
@@ -385,11 +388,12 @@ ul li a {
     /* Run section responsive */
     .run-section {
         flex-direction: column;
-        margin: 0 auto;
+        height: 20%;
         width: 100%;
         gap: 20px;
-        padding: 10px;
+        margin: 0 auto;
         margin-top: 60px;
+        padding: 0px 0px ;
     }
 
     .join-now-button {
@@ -401,6 +405,22 @@ ul li a {
     }
 
     .run-section-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 100%;
+    }
+
+    .run-image{
+        display: none;
+    }
+
+    .run-image-1{
+        display: block;
+        /* border: 2px solid red; */
+        border-radius: 10px;
+        height: 90%;
+        width: 95%;
+        padding: 10px;
     }
 }
