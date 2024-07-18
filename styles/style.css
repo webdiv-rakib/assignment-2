@@ -264,35 +264,29 @@ ul li a {
 
 /* Run section style here */
 .run-section {
-    /* border: 2px solid red; */
+
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 165px;
-    padding: 20px;
-    margin-left: 150px;
-    margin-right: 150px;
+    padding: 20px 10px;
+    width: 60%;
+    margin: 0 auto;
     border-radius: 18px;
-    background-color: rgb(34,34,34);
+    background-color: rgb(34, 34, 34);
 }
 
-.run-section-1 {
-    /* border: 2px solid red; */
-}
+.run-section-1 {}
 
 .run-section-2 {
-    /* border: 2px solid red; */
-    width: 20%;
-    height: 200px;
-    background-image: url("../images/run.jpg");
-    background-position: center;
-    background-size: cover;
-
+    text-align: center;
 }
 
 .run-image {
-    height: 100%;
-    width: 50%;
+    margin-left: 40px;
+    border-radius: 18px;
+    width: 100%;
+
 }
 
 .run-title {
@@ -305,10 +299,17 @@ ul li a {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.87rem;
     font-weight: 400;
+    margin-bottom: 34px;
 }
 
-.run-button{
+.run-button {
+    color: white;
     padding: 10px 30px;
+    border-radius: 100px;
+    border: none;
+    background-color: rgb(230, 83, 60);
+    font-size: 1.12rem;
+    font-weight: 400;
 }
 
 
@@ -316,7 +317,7 @@ ul li a {
 @media screen and (max-width: 576px) {
     body {
         width: 100%;
-        /* margin: 0 auto; */
+
     }
 
     .navbar {
@@ -379,5 +380,27 @@ ul li a {
     .habit-section-2 {
         flex-direction: column;
         margin: 0 auto;
+    }
+
+    /* Run section responsive */
+    .run-section {
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+        gap: 20px;
+        padding: 10px;
+        margin-top: 60px;
+    }
+
+    .join-now-button {
+        text-align: center;
+    }
+
+    .run-button {
+        width: 100%;
+    }
+
+    .run-section-2 {
+        width: 100%;
     }
 }
