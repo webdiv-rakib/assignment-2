@@ -319,17 +319,46 @@ ul li a {
 /* BMI section style here */
 
 .bmi-container {
+    text-align: center;
+    margin-top: 78px;
+    margin-bottom: 88px;
 
 }
 
-.bmi-title{
+.bmi-title {
     color: white;
     font-size: 48px;
 }
 
-.bmi-description{
+.bmi-description {
     color: #FFFFFF80;
     font-size: 14px;
+}
+
+table,
+th,
+td {
+    border: 2px solid #FFFFFF1A;
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+.bmi-table {
+    color: white;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.table-title {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.table-cell {
+    color: #FFFFFF80;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 
