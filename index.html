@@ -113,61 +113,61 @@
         </section>
         <!-- BMI Calculator starts here -->
         <section>
-            <div class="bmi-structure">
-                <div class="bmi-container">
-                    <h1 class="bmi-title">BMI Calculator</h1>
-                    <p class="bmi-description">We believe fitness should be accessible to everyone, everywhere,
-                        regardless of income or <br> access to a gym.</p>
+            <div class="bmi-container">
+                <h1 class="bmi-title">BMI Calculator</h1>
+                <p class="bmi-description">We believe fitness should be accessible to everyone, everywhere,
+                    regardless of income or <br> access to a gym.</p>
+            </div>
+            <div class="bmi-section">
+                <div class="bmi-table">
+                    <h1 class="bmi-table-title">BMI Calculator Chart</h1>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td class="table-title">BMI</td>
+                                <td class="table-title">Weight Status</td>
+                            </tr>
+                            <tr class="table-cell">
+                                <td>Below 18.5</td>
+                                <td>Underweight</td>
+                            </tr>
+                            <tr class="table-cell">
+                                <td>18.5 - 24.9</td>
+                                <td>Healthy</td>
+                            </tr>
+                            <tr class="table-cell">
+                                <td>25.0 - 29.9</td>
+                                <td>Overweight</td>
+                            </tr>
+                            <tr class="table-cell">
+                                <td>30.0 - and Above</td>
+                                <td>Obese</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <div class="bmi-section">
-                    <div class="bmi-calculator">
-                        <h1 class="bmi-table">BMI Calculator Chart</h1>
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td class="table-title">BMI</td>
-                                    <td class="table-title">Weight Status</td>
-                                </tr>
-                                <tr class="table-cell">
-                                    <td>Below 18.5</td>
-                                    <td>Underweight</td>
-                                </tr>
-                                <tr class="table-cell">
-                                    <td>18.5 - 24.9</td>
-                                    <td>Healthy</td>
-                                </tr>
-                                <tr class="table-cell">
-                                    <td>25.0 - 29.9</td>
-                                    <td>Overweight</td>
-                                </tr>
-                                <tr class="table-cell">
-                                    <td>30.0 - and Above</td>
-                                    <td>Obese</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="bmi-calculator">
-                        <h1 class="bmi-calculator-title">Calculate your BMI</h1>
-                        <p class="bmi-calculator-description">We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or
-                            access to a gym. </p>
-                        <div class="input-field">
-                            <div>
-                                <input type="text" placeholder="Height/cm">
-                                <input type="text" placeholder="Weight/kg">
-                            </div>
-                            <div class="second-input">
-                                <input type="text" placeholder="Age">
-                                <select name="" id="">
-                                    <option value="">Sex</option>
-                                </select>
-                            </div>
-                            <select class="last-select" name="" id="">
+                <div class="bmi-calculator">
+                    <h1 class="bmi-calculator-title">Calculate your BMI</h1>
+                    <p class="bmi-calculator-description">We believe fitness should be accessible to everyone,
+                        everywhere, regardless of <br> income or
+                        access to a gym. </p>
+                    <form >
+                        <div class="bmi-calculator-input">
+                            <input type="number" placeholder="Height/cm">
+                            <input type="number" placeholder="Weight/kg">
+                            <input type="number" placeholder="Age">
+                            <select name="" id="">
+                                <option value="" disabled selected>Sex</option>
+                                <option value="">Male</option>
+                                <option value="">Female</option>
+                                <option value="">Other</option>
+                            </select>
+                            <select class="second-select" name="" id="">
                                 <option value="">Select an activity factor</option>
                             </select>
                         </div>
-                        <button class="calculate-button">Calculate</button>
-                    </div>
+                        <input class="calculate-bmi-button" type="submit" value="Calculate">
+                    </form>
                 </div>
             </div>
         </section>
