@@ -279,8 +279,6 @@ ul li a {
     background-color: rgb(34, 34, 34);
 }
 
-.run-section-1 {}
-
 .run-section-2 {
     text-align: center;
 }
@@ -377,11 +375,6 @@ td {
     padding: 10px;
 }
 
-
-.bmi-calculator {
-    /* border: 2px solid red; */
-}
-
 .bmi-calculator-title {
     color: #FFFFFF;
     font-size: 28px;
@@ -434,6 +427,68 @@ select {
     background-color: #E6533C;
     color: #FFFFFF;
     margin-bottom: 52px;
+}
+
+/* Meet out team section style here */
+.meet-out-team{
+    text-align: center;
+    margin-top: 88px;
+}
+
+.meet-title{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.meet-description{
+    color: #FFFFFF80;
+    font-size: 14px;
+    margin-bottom: 58px;
+}
+.trainer{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    /* border: 2px solid red; */
+    border-radius: 18px;
+}
+.trainer-1{
+    background-image: url(../images/trainer1\ \(1\).png);
+    
+}
+.trainer-2{
+    background-image: url(../images/trainer2.png);
+    
+    
+}
+.trainer-3{
+    background-image: url(../images/trainer3.png);
+    
+}
+.trainer-4{
+    background-image: url(../images/trainer4.png);
+      
+}
+.trainer-5{
+    background-image: url(../images/trainer5.png);
+     
+}
+.trainer-6{
+    background-image: url(../images/trainer6.png);
+    
+}
+
+.trainer-image-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 20px;
+    background-color: #FFFFFF1A;
+    border-radius: 18px;
 }
 
 /* Small device responsive */
