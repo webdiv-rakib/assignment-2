@@ -430,58 +430,67 @@ select {
 }
 
 /* Meet out team section style here */
-.meet-out-team{
+.meet-out-team {
     text-align: center;
     margin-top: 88px;
 }
 
-.meet-title{
+.meet-title {
     color: white;
     font-size: 48px;
     font-weight: 900;
 }
 
-.meet-description{
+.meet-description {
     color: #FFFFFF80;
     font-size: 14px;
     margin-bottom: 58px;
 }
-.trainer{
+
+.trainer {
     background-repeat: no-repeat;
     background-size: cover;
     height: 350px;
-    /* border: 2px solid red; */
     border-radius: 18px;
-}
-.trainer-1{
-    background-image: url(../images/trainer1\ \(1\).png);
-    
-}
-.trainer-2{
-    background-image: url(../images/trainer2.png);
-    
-    
-}
-.trainer-3{
-    background-image: url(../images/trainer3.png);
-    
-}
-.trainer-4{
-    background-image: url(../images/trainer4.png);
-      
-}
-.trainer-5{
-    background-image: url(../images/trainer5.png);
-     
-}
-.trainer-6{
-    background-image: url(../images/trainer6.png);
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px;
 }
 
-.trainer-image-card{
+.trainer-1 {
+    background-image: url(../images/trainer1\ \(1\).png);
+
+}
+
+.trainer-2 {
+    background-image: url(../images/trainer2.png);
+
+}
+
+.trainer-3 {
+    background-image: url(../images/trainer3.png);
+
+}
+
+.trainer-4 {
+    background-image: url(../images/trainer4.png);
+
+}
+
+.trainer-5 {
+    background-image: url(../images/trainer5.png);
+
+}
+
+.trainer-6 {
+    background-image: url(../images/trainer6.png);
+
+}
+
+.trainer-image-card {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     /* border: 2px solid red; */
     width: 80%;
     margin: 0 auto;
@@ -489,6 +498,60 @@ select {
     gap: 20px;
     background-color: #FFFFFF1A;
     border-radius: 18px;
+    margin-bottom: 88px;
+}
+
+.trainer-name{
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.trainer-position{
+    color: #FFFFFF80;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* Membership section style */
+
+/* Information section style here */
+.fitness-section{
+    /* border: 2px solid red; */
+    background-color: #FFFFFF1A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fitness{
+    color: #E6533C;
+    font-size: 70px;
+    font-weight: 800;
+    margin-top: 66px;
+}
+
+.fitness-description{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #FFFFFF80;
+}
+
+.fitness-title{
+    color: white;
+    font-size: 32px;
+    width: 700;
+    margin-top: 66px;
+}
+
+.fitness-title-description{
+    color: #FFFFFF80;
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 39px;
+}
+
+.fitness-margin{
+    margin-bottom: 79px;
 }
 
 /* Small device responsive */
