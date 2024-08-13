@@ -268,9 +268,9 @@ ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 165px;
+    gap: 50px;
     padding: 20px 10px;
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     border-radius: 18px;
     background-color: rgb(34, 34, 34);
@@ -288,7 +288,8 @@ ul li a {
     width: 100%;
 
 }
-.run-image-1{
+
+.run-image-1 {
     display: none;
 }
 
@@ -313,6 +314,22 @@ ul li a {
     background-color: rgb(230, 83, 60);
     font-size: 1.12rem;
     font-weight: 400;
+}
+
+/* BMI section style here */
+
+.bmi-container {
+
+}
+
+.bmi-title{
+    color: white;
+    font-size: 48px;
+}
+
+.bmi-description{
+    color: #FFFFFF80;
+    font-size: 14px;
 }
 
 
@@ -388,12 +405,15 @@ ul li a {
     /* Run section responsive */
     .run-section {
         flex-direction: column;
-        height: 20%;
         width: 100%;
         gap: 20px;
         margin: 0 auto;
         margin-top: 60px;
-        padding: 0px 0px ;
+        padding: 0px 0px;
+    }
+
+    .run-section-1 {
+        margin-top: 20px;
     }
 
     .join-now-button {
@@ -408,19 +428,17 @@ ul li a {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 90%;
+        margin-bottom: 20px;
     }
 
-    .run-image{
+    .run-image {
         display: none;
     }
 
-    .run-image-1{
+    .run-image-1 {
         display: block;
-        /* border: 2px solid red; */
         border-radius: 10px;
-        height: 90%;
         width: 95%;
-        padding: 10px;
     }
 }
