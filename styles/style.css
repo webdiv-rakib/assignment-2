@@ -418,6 +418,7 @@ input::placeholder {
     color: #FFFFFF99;
     font-size: 1rem;
     font-weight: 400;
+    width: auto;
 }
 
 select {
@@ -447,6 +448,8 @@ select {
         justify-content: space-between;
         align-items: center;
         margin: 0 auto;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     ul li a {
@@ -455,6 +458,8 @@ select {
 
     .icon {
         display: block;
+        color: white;
+        font-size: 24px;
     }
 
     .navbar-section-2 {
@@ -469,9 +474,18 @@ select {
         margin-top: 50px;
     }
 
+    .banner-bg {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
     .banner-section-1 {
         justify-content: center;
         align-items: center;
+    }
+
+    .banner-title {
+        font-size: 36px;
     }
 
     .banner-main-button {
@@ -490,8 +504,20 @@ select {
     }
 
     .box-2 {
-        margin-left: 53%;
-        margin-bottom: 20%;
+        /* margin-left: 53%;
+        margin-bottom: 20%; */
+        height: max-content;
+        right: 0;
+        top: 70px;
+        width: max-content;
+    }
+
+    .box-2-title {
+        font-size: 30px;
+    }
+
+    .box-2-description {
+        font-size: 15px;
     }
 
     /* Habit section responsive */
@@ -542,5 +568,33 @@ select {
         display: block;
         border-radius: 10px;
         width: 95%;
+    }
+
+    /* BMI section responsive */
+    .bmi-section {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .bmi-table {
+        margin-left: 20px;
+    }
+
+    .bmi-container {
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .bmi-calculator {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .bmi-calculator-input {
+        overflow: auto;
+    }
+
+    .bmi-calculator-input>* {
+        padding: 8px;
     }
 }
