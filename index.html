@@ -30,7 +30,7 @@
     </header>
     <main>
         <!-- Banner section starts here -->
-        <section>
+        <section class="banner-bg">
             <div class="banner">
                 <div class="banner-section-1">
                     <h1 class="banner-title">Get body in <br><span class="shape">shape</span> & stay<br>healthy</h1>
@@ -113,14 +113,14 @@
         </section>
         <!-- BMI Calculator starts here -->
         <section>
-            <div>
+            <div class="bmi-structure">
                 <div class="bmi-container">
                     <h1 class="bmi-title">BMI Calculator</h1>
                     <p class="bmi-description">We believe fitness should be accessible to everyone, everywhere,
-                        regardless of income or access to a gym.</p>
+                        regardless of income or <br> access to a gym.</p>
                 </div>
-                <div>
-                    <div>
+                <div class="bmi-section">
+                    <div class="bmi-calculator">
                         <h1 class="bmi-table">BMI Calculator Chart</h1>
                         <table>
                             <tbody>
@@ -147,8 +147,26 @@
                             </tbody>
                         </table>
                     </div>
-                    <div>
-
+                    <div class="bmi-calculator">
+                        <h1 class="bmi-calculator-title">Calculate your BMI</h1>
+                        <p class="bmi-calculator-description">We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or
+                            access to a gym. </p>
+                        <div class="input-field">
+                            <div>
+                                <input type="text" placeholder="Height/cm">
+                                <input type="text" placeholder="Weight/kg">
+                            </div>
+                            <div class="second-input">
+                                <input type="text" placeholder="Age">
+                                <select name="" id="">
+                                    <option value="">Sex</option>
+                                </select>
+                            </div>
+                            <select class="last-select" name="" id="">
+                                <option value="">Select an activity factor</option>
+                            </select>
+                        </div>
+                        <button class="calculate-button">Calculate</button>
                     </div>
                 </div>
             </div>
