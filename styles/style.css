@@ -514,6 +514,38 @@ select {
 }
 /* Membership section style */
 
+.membership-card{
+    border: 2px solid red;
+    height: 350px;
+    width: 250px;
+    background-color: #FFFFFF1A;
+    padding: 20px;
+}
+.pakage-title{
+    text-align: center;
+    color: white;
+}
+
+.service{
+    color: white;
+}
+
+.buy-button{
+    padding: 16px 45px 16px 45px;
+    border-radius: 16px;
+    border: none;
+}
+
+.purchase{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.membership-offers{
+    display: ;
+}
+
+
 /* Information section style here */
 .fitness-section{
     /* border: 2px solid red; */
