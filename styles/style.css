@@ -501,42 +501,44 @@ select {
     margin-bottom: 88px;
 }
 
-.trainer-name{
+.trainer-name {
     color: white;
     font-size: 24px;
     font-weight: 900;
 }
 
-.trainer-position{
+.trainer-position {
     color: #FFFFFF80;
     font-size: 18px;
     font-weight: 600;
 }
+
 /* Membership section style */
 
-.membership-card{
+.membership-card {
     height: 350px;
     background-color: #FFFFFF1A;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 2px 2px 4px #FFFFFF1A ;
+    box-shadow: 2px 2px 4px #FFFFFF1A;
 }
-.pakage-title{
+
+.pakage-title {
     text-align: center;
     color: white;
 }
 
-.service{
+.service {
     color: white;
 }
 
-.buy-button{
+.buy-button {
     padding: 16px 45px 16px 45px;
     border-radius: 16px;
     border: none;
 }
 
-.purchase{
+.purchase {
     text-align: center;
     margin-top: 50px;
     display: flex;
@@ -544,11 +546,11 @@ select {
     align-items: center;
 }
 
-.membership-offers{
+.membership-offers {
     width: 50%;
     /* border: 2px solid red; */
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin: 0 auto;
     padding: 20px;
     gap: 20px;
@@ -558,10 +560,11 @@ select {
 
 /* Information section style here */
 
-footer{
+footer {
     background-color: #FFFFFF1A;
 }
-.fitness-section{
+
+.fitness-section {
     /* border: 2px solid red; */
     /* background-color: #FFFFFF1A; */
     display: flex;
@@ -569,7 +572,7 @@ footer{
     align-items: center;
 }
 
-.fitness{
+.fitness {
     color: #E6533C;
     font-size: 70px;
     font-weight: 800;
@@ -579,35 +582,43 @@ footer{
     text-shadow: 2px 2px 4px black;
 }
 
-.fitness-description{
+.fitness-2 {
+    color: #E6533C;
+    font-size: 70px;
+    font-weight: 800;
+    margin-top: 66px;
+}
+
+.fitness-description {
     margin-top: 20px;
     font-size: 14px;
     color: #FFFFFF80;
 }
 
-.fitness-title{
+.fitness-title {
     color: white;
     font-size: 32px;
     width: 700;
     margin-top: 66px;
 }
 
-.fitness-title-description{
+.fitness-title-description {
     color: #FFFFFF80;
     font-size: 23px;
     font-weight: 400;
     margin-top: 39px;
 }
 
-.fitness-margin{
+.fitness-margin {
     margin-bottom: 79px;
 }
-.footer-name{
+
+.footer-name {
     text-align: center;
     margin-top: 36px;
 }
 
-.copy-right{
+.copy-right {
     font-size: 20px;
     color: #FFFFFF80;
 }
@@ -775,7 +786,7 @@ footer{
     }
 
     /* Meet our team responsive */
-    .trainer-image-card{
+    .trainer-image-card {
         width: 90%;
         display: flex;
         flex-direction: column;
@@ -784,18 +795,26 @@ footer{
     }
 
     /* Membership offer responsive */
-    .membership-offers{
+    .membership-offers {
         display: flex;
         flex-direction: column;
         width: 80%;
         margin: 0;
     }
 
-    .membership-card{
+    .membership-card {
         width: 100%;
     }
 
-    .fitness{
+    .fitness {
         font-size: 50px;
+    }
+
+    /* Footer section responsive */
+    .fitness-section {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
